@@ -22,7 +22,6 @@ $(document).ready(function () {
     setInterval(displayTime, 1000);
 
 
-
     // Search button event listener 
     searchBtn.on("click", displayWeather);
 
@@ -84,7 +83,7 @@ $(document).ready(function () {
     };
     
 
-    // Search input field event listener and set to local storage
+    // Search input field event listener and set values to local storage
     searchBtn.on("click", function (event) {
          event.preventDefault();
          var cityName = $("#search-input").val().trim();
@@ -95,7 +94,7 @@ $(document).ready(function () {
          cityButtons();
   });
 
-    // City buttons creation function and retrieve from local storage
+    // City buttons creation function and retrieve values from local storage
     function cityButtons() {
          cities.empty();
 
@@ -104,7 +103,7 @@ $(document).ready(function () {
             return;
         }
 
-    // Cities button creation 
+    // Cities button creation w/ bootstrap properties 
     var cityBtn = JSON.parse(loadCity);
         for (let i = 0; i < cityBtn.length; i++) {
             var newBtn = $("<button>");
@@ -122,7 +121,7 @@ $(document).ready(function () {
         
     })
 
-    // Clear search button
+    // Clear search button w/ bootstrap properties
         var clearSearch = $("<div>");
         var deleteBtn = $("<button>");
         clearSearch.addClass("clearSearch mt-3");

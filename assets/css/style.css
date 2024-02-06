@@ -1,4 +1,8 @@
-body {
+  /* /Element Selectors/ */
+  
+
+  /* General font style and background color */
+  body {
     font-size: 15px;
     font-family: PT serif;
     scroll-behavior: smooth;
@@ -6,6 +10,7 @@ body {
     background-color: rgb(194, 193, 193);
   }
 
+  /* Header positioning and styling */
   header {
     display: flex;
     width: 100%;
@@ -16,22 +21,24 @@ body {
     color: rgb(255, 252, 224);
   }
 
- span {
-  text-shadow: 2px 2px 8px black;
-  font-size: 2.25rem;
-
+  /* font size and styling */
+  span {
+    text-shadow: 2px 2px 8px black;
+    font-size: 2.25rem;
  }
 
+ /* h2 weather icon display */
   h2 .icon {
-    display: flex;
-   
+     display: flex;
   }
    
+  /* weather icon styling */
   h3 .icon, h2 .icon {
      background-color: rgb(140, 205, 251);
      border-radius: 5px;
   } 
 
+  /* forecast card styling and orientation */
   h3  {
     flex-wrap: wrap;
     border: 1px solid black;
@@ -42,23 +49,34 @@ body {
     background-color: rgb(253, 253, 179);
   }
 
- .container-fluid h1, .current {
-  border: 1px solid black;
-  border-radius: 5px;
-  box-shadow: 5px 5px #888888;
-  background-color: beige;
+
+/* /Class Selectors/ */ 
+
+/* h1 and current weather container styling */
+  .container-fluid h1, .current {
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px #888888;
+    background-color: beige;
   }
   
+
+/* /ID Selectors/ */
+
+
+  /* time and date orientation */
+  #time-display {
+    padding-bottom: 10px;
+    text-align:justify;
+  }
+  
+/* search form orientation */
   #search-form {
-  margin-top: 10px;
+    margin-top: 10px;
   }
 
+  /* forecast section orientation */
   #forecast-container { 
     float: left;
     width: 80%;
-  }
-   
-  #time-display {
-  padding-bottom: 10px;
-  text-align:justify;
   }
