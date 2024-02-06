@@ -46,7 +46,7 @@ $(document).ready(function () {
                 var currentWind = $("<p>").text(`Wind: ${data.wind.speed} MPH`);
                 var currentHumidity = $("<p>").text(`Humidity: ${data.main.humidity}%`);
                 
-                currentIcon.addClass("icon");
+                currentIcon.addClass("current-icon");
                 currentDay.append(currentLocation, currentTemp, currentWind, currentHumidity);
                 currentLocation.append(currentIcon);
             });
