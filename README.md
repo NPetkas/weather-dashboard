@@ -9,6 +9,6 @@ The weather dashboard created for this project was designed to be a very simple 
 
 ## Link to deploy app
 
-[Deploy Application][def]
+[Weather Dashboard][def]
 
-[def]: https://nicoinlalaland.github.io/horiseon-accessibility/
+[def]: https://nicoinlalaland.github.io/weather-dashboard/
