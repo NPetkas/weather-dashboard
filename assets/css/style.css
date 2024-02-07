@@ -33,7 +33,7 @@
   }
    
   /* weather icon styling */
-  h3 .icon, h2 .icon {
+  h3 .icon, h2 .current-icon {
      background-color: rgb(140, 205, 251);
      border-radius: 5px;
   } 
