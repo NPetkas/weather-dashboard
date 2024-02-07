@@ -120,20 +120,4 @@ $(document).ready(function () {
         displayWeather()
         
     })
-
-    // Clear search button w/ bootstrap properties
-        var clearSearch = $("<div>");
-        var deleteBtn = $("<button>");
-        clearSearch.addClass("clearSearch mt-3");
-        deleteBtn.addClass("btn w-100 btn bg-dark text-light mb-3 delete");
-        deleteBtn.attr("id", "delete")
-        deleteBtn.text("Clear Search");
-        clearSearch.append(deleteBtn);
-        clearSearch.insertBefore(".hr");
-    
-
-    // Delete search history event listener
-    $(".delete").on("click", function (e) {
-        localStorage.clear();
-    });
 });
