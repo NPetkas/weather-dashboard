@@ -7,7 +7,7 @@ The weather dashboard created for this project was designed to be a very simple 
 
 ![image](./assets/images/screenshot.png)
 
-## Link to deploy app
+## Link to app
 
 [Weather Dashboard][def]
 
