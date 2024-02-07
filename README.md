@@ -8,7 +8,6 @@ The weather dashboard created for this project was designed to be a very simple 
 ![image](./assets/images/screenshot.png)
 
 ## Link to app
-
 [Weather Dashboard][def]
 
 [def]: https://nicoinlalaland.github.io/weather-dashboard/
